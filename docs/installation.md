@@ -43,8 +43,8 @@ Any modification made to the `speechbrain` package will be automatically interpr
 ## Test installation
 Please, run the following script  from the main folder to make sure your installation is working:
 ```
-pytest tests
-pytest --doctest-modules speechbrain
+py.test tests
+py.test --doctest-modules speechbrain
 ```
 
 ## Operating Systems
